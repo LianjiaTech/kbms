@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/home/dongzhixiong/libevent-2.1.11-stable/bear
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libevent_extra
+Description: libevent_extra
+Version: 2.1.11-stable
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent_extra
+Libs.private: 
+Cflags: -I${includedir}
+

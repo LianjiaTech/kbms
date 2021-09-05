@@ -1,0 +1,9 @@
+libdir=/data/programs/thirdparty_cm/jsoncpp-1.8.3/build_lib/lib64
+includedir=/data/programs/thirdparty_cm/jsoncpp-1.8.3/build_lib/include
+
+Name: jsoncpp
+Description: A C++ library for interacting with JSON
+Version: 1.8.3
+URL: https://github.com/open-source-parsers/jsoncpp
+Libs: -L${libdir} -ljsoncpp
+Cflags: -I${includedir}
