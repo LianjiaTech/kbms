@@ -50,7 +50,7 @@ int main(int argc, char* argv[]) {
 ```
 
 ### More examples
-Please see the source code in [examples](examples/http)
+Please see the source code in [examples](examples/http).
 # Thanks
 
 1. Thanks for [libevent], [glog](https://github.com/google/glog), [gtest](https://github.com/google/googletest), [jsoncpp]，[curl]，[wrk] projects
